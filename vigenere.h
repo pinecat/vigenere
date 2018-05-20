@@ -14,11 +14,11 @@ void encrypt(char *text, char *key);
 void decrypt(char *text, char *key);
 char *refine_key(char *key, int textlength);
 int get_strlength(char *text);
-int is_letter(char c);
 char to_upper(char c);
 char to_lower(char c);
 int is_upper(char c);
 int is_lower(char c);
+int is_letter(char c);
 void read_line(char *text);
 
 #endif
